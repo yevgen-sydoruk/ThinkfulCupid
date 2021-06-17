@@ -219,11 +219,15 @@ footer p {
 
     #blog-block {
         display: flex;
+        flex-wrap: wrap;
     }
-    #ideas-block article {
+    #blog-block article {
         box-sizing: border-box;
+        flex: 0 50%;
+        padding: 10px;
     }
 
     #ideas-block article img {
+        width: 100%;
     }
 }
